@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "72a073f7-a8af-4688-9925-93aac9c88298",
+		"name": "OpenBootCamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23503395"
+	},
+	"item": [
+		{
+			"name": "ListarBootcampers",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateBootCamper",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"cincomilochocientosquince\",\n    \"valor\": \"5815\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/bootcampers",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"bootcampers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
